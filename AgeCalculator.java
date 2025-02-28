@@ -7,18 +7,16 @@
  */
 public class AgeCalculator
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class AgeCalculator
-     */
-    public AgeCalculator()
-    {
-        // initialise instance variables
-        x = 0;
-    }
     private int currentYear = 2025;
+    
+    public void legalAge(int yearofBirth){
+        int age;
+        age= currentYear - yearofBirth;
+        if (age>=16){
+            System.out.println(age + " You are eligible to drive a car in Canada");   
+        }
+        else    System.out.println(16 - age + " more years before you can drive!");
+    }
     
     /*
      * public int yearofBirth(){

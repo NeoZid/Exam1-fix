@@ -7,17 +7,7 @@
  */
 public class SalaryNetCalculator
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Salary
-     */
-    public SalaryNetCalculator()
-    {
-        // initialise instance variables
-        x = 0;
-    }
+    
     
     /*
      * public int netpayCalc(){
@@ -29,6 +19,13 @@ public class SalaryNetCalculator
 
      */
     
+    public void netPayCalc(int workedHours, double hourlyWage){
+        double taxes = 0.3;
+        double netPay;
+        double totalPay = workedHours*hourlyWage;
+        netPay = totalPay-(totalPay*taxes);
+            System.out.println("Your netpay is:" + netPay);    
+    }
     }
     
    

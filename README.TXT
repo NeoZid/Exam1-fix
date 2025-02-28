@@ -1,0 +1,2 @@
+This exam was definitely helpful trying to solve problems and writing them in code but, like everyone else said, we needed more time in order to do them. 
+But, the exam format definitely helps improve our knowledge in programming.
